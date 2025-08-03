@@ -1,4 +1,4 @@
-export default function HourlyWeather({info}) {
+export default function WeatherInfo({info}) {
   return (
     <div className="hourly-forecast">
       <ul className="weather-list">
