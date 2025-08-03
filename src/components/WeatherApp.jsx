@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { useEffect } from "react";
 import CurrentWeather from "./CurrentWeather";
-import HourlyWeather from "./HourlyWeather";
+import WeatherInfo from "./WeatherInfo";
 import SearchSection from "./SearchSection";
 
 export default function WeatherApp() {
@@ -36,8 +36,8 @@ export default function WeatherApp() {
       <div className="weather-section">
         <CurrentWeather info={weatherInfo} />
 
-        {/*Hourly Weather section */}
-        <HourlyWeather info={weatherInfo} />
+        {/*Weather Info section */}
+        <WeatherInfo info={weatherInfo} />
       </div>
     </div>
   );
